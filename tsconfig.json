@@ -6,8 +6,7 @@
         "allowJs": true,
         "paths": {
             "*": [
-                "*",
-                "gi-types/*"
+                "*"
             ]
 	    },
 	    "target": "ES2021",
@@ -19,12 +18,10 @@
             "ES2021"
         ],
         "typeRoots": [
-            "gi-types/*",
             "*"
         ]
     },
     "include": [
-        "gi-types/*",
         "*"
     ]
 }
