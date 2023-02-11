@@ -100,6 +100,10 @@ declare function setTimeout(handler: Function, timeout?: number, ...arguments?: 
 declare function clearTimeout(id: GLib.Source): void;
 
 // GI MODULES
+declare module "gi://GnomeAutoar" {
+    export * as default from "gnomeautoar0";
+}
+
 declare module "gi://Adw" {
     export * as default from "adw1";
 }
