@@ -100,8 +100,9 @@ declare function setTimeout(handler: Function, timeout?: number, ...arguments?: 
 declare function clearTimeout(id: GLib.Source): void;
 
 // GI MODULES
-declare module "gi://GnomeAutoar" {
-    export * as default from "gnomeautoar0";
+
+declare module "cairo" {
+    export * as default from "cairo1";
 }
 
 declare module "gi://Adw" {
@@ -110,10 +111,6 @@ declare module "gi://Adw" {
 
 declare module "gi://Adw?version=1" {
     export * as default from "adw1";
-}
-
-declare module "gi://cairo" {
-    export * as default from "cairo1";
 }
 
 declare module "gi://DBus" {
@@ -174,6 +171,10 @@ declare module "gi://GLib" {
 
 declare module "gi://GModule" {
     export * as default from "gmodule2";
+}
+
+declare module "gi://GnomeAutoar" {
+    export * as default from "gnomeautoar0";
 }
 
 declare module "gi://GObject" {
