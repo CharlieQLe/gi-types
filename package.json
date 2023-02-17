@@ -11,6 +11,7 @@
     "@gi.ts/lib": "^1.5.13"
   },
   "scripts": {
-    "generate:gi": "gi-ts generate"
+    "install:dependencies": "sh scripts/install-dependencies.sh",
+    "generate:gi": "gi-ts generate --withDocs"
   }
 }

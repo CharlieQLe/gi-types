@@ -1,7 +1,7 @@
 /**
  * JavaScriptCore 5.0
  *
- * Generated from 2.38.3
+ * Generated from 2.38.4
  */
 
 import * as GObject from "gobject2";
